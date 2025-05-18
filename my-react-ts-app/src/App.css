@@ -172,6 +172,24 @@ button {
   }
 }
 
+@media (max-width: 480px) {
+  section {
+    padding: 2rem 1rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+}
+
 #root {
   width: 100%;
   min-height: 100vh;
