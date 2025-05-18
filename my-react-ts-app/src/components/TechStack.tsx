@@ -8,10 +8,18 @@ const technologies = [
   { name: 'JavaScript', icon: '📜' },
   { name: 'TypeScript', icon: '📘' },
   { name: 'React', icon: '⚛️' },
+  { name: 'React Native', icon: '📲' },
   { name: 'Node.js', icon: '🟢' },
   { name: 'Git', icon: '📦' },
   { name: 'GitHub', icon: '🐙' },
-  { name: 'C', icon: '🔵' }
+  { name: 'C', icon: '🔵' },
+  { name: 'Expo', icon: '🚀' },
+  { name: 'Firebase', icon: '🔥' },
+  { name: 'Figma', icon: '🎨' },
+  { name: 'Sass', icon: '💅' },
+  { name: 'Tailwind CSS', icon: '🌬️' },
+  { name: 'Redux', icon: '🔄' },
+  { name: 'Express.js', icon: '🚂' }
 ]
 
 const TechStack = () => {

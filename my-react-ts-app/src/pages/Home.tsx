@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Home.css'
+import TechStack from '../components/TechStack'
 
 const Home: React.FC = () => {
   return (
@@ -60,27 +61,7 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      <section className="tech-stack">
-        <h2>Tech Stack</h2>
-        <div className="tech-grid">
-          <div className="tech-item">
-            <span className="tech-icon">⚛️</span>
-            <h3>React</h3>
-          </div>
-          <div className="tech-item">
-            <span className="tech-icon">📘</span>
-            <h3>TypeScript</h3>
-          </div>
-          <div className="tech-item">
-            <span className="tech-icon">🎨</span>
-            <h3>CSS</h3>
-          </div>
-          <div className="tech-item">
-            <span className="tech-icon">🚀</span>
-            <h3>Node.js</h3>
-          </div>
-        </div>
-      </section>
+      <TechStack />
 
       <section className="cta">
         <h2>Ready to Start Your Project?</h2>
