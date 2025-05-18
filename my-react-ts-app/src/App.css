@@ -188,6 +188,10 @@ button {
   .btn {
     padding: 0.5rem 1rem;
   }
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
 }
 
 #root {
