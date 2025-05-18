@@ -2,7 +2,12 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import '../styles/Navbar.css'
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  darkMode: boolean;
+  toggleDarkMode: () => void;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
 
@@ -65,6 +70,13 @@ const Navbar: React.FC = () => {
           >
             Contact
           </Link>
+          <button 
+            className="theme-toggle"
+            onClick={toggleDarkMode}
+            aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
+          >
+            {darkMode ? '🌞' : '🌙'}
+          </button>
         </div>
       </div>
     </nav>
