@@ -180,4 +180,26 @@
     background-color: var(--background-color);
     border-radius: var(--radius-md);
   }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 1rem 0 0.5rem;
+    height: 60px;
+  }
+  .navbar {
+    height: 60px;
+  }
+  .logo {
+    font-size: 1.25rem;
+    line-height: 60px;
+    padding-right: 1rem;
+    max-width: 60vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .menu-toggle {
+    margin-left: 0.5rem;
+  }
 } 
